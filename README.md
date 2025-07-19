@@ -40,5 +40,72 @@ pip install pygame
 pyuic6 login.ui -o login.py
 ```
 
-🗃️ MySQL 
+### 🗃️ MySQL 
 Stores user data and music entries persistently. The database file is Music_App.db.
+
+Download [MySQL Workbench here](https://dev.mysql.com/downloads/mysql/)
+> Example:
+```
+db = mysql.connector.connect(
+host = "localhost",
+user = "root",
+database = "database_name",
+password = "password"
+)         
+```
+
+> [!IMPORTANT]
+>   Execute each line in  the file(main_query.sql)
+
+
+### 🧠 How the Program Works
+1. Login / Account Creation - Users can sign up or log in with credentials. Data is stored in SQLite.
+
+2. Main Dashboard - Displays the music library. Users can import new music or select tracks to play.
+
+3. Music Importing - Allows adding new MP3 files. Metadata can be edited post-import.
+
+4. Music Playback - Controlled by pygame.mixer with play/pause/stop functions.
+
+5. Edit Functions - Users can update their account info or music details directly.
+
+### ⚙️ Technologies Used
+
+| Technology | Purpose | 
+| --- | --- |
+| Python3 | Core programming language |
+| PyQt6 | UI framework for GUI design |
+| Pygame | MP3 playback (mixer module) |
+| MySQL Workbench | Local database |
+| Qt Designer | GUI layout creation |
+| OS module | File path and directory handling |
+
+## 🌱 Future Improvements
+### 🎥 YouTube Integration
+- Import music directly from YouTube
+- Use yt-dlp or pytube to download and convert audio
+- Auto-fill metadata from video title and description
+
+### 🔍 Search and Filter
+- Search tracks by title, artist, or album
+- Add sorting by name, date, or length
+
+### 📂 Playlist Support
+- Create custom playlists
+
+- Support for playback queues
+
+### 🎨 Theme Options
+- Add light/dark mode toggle
+
+- User-selectable color themes
+
+### ☁️ Cloud Sync (Optional)
+- Backup user data and songs to a cloud service
+
+### ✅ Testing and Stability
+- Add exception handling, input validation
+
+- Add unit tests and error logging
+
+
