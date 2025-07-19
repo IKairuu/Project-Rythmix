@@ -41,7 +41,7 @@ pyuic6 login.ui -o login.py
 ```
 
 ### 🗃️ MySQL 
-Stores user data and music entries persistently. The database file is Music_App.db.
+Stores user data and music entries persistently. Establish a Visual Studio Code connection to MySQL Database with this [tutorial](https://www.youtube.com/watch?v=9ADd-_mM5Dw&t=619s&ab_channel=ProgrammingKnowledge).
 
 Download [MySQL Workbench here](https://dev.mysql.com/downloads/mysql/)
 > Example:
@@ -107,5 +107,10 @@ password = "password"
 - Add exception handling, input validation
 
 - Add unit tests and error logging
+
+## 📬 Contact Information
+- 📧 Email: [abandiakyle2112@gmail.com](mailto:abandiakyle2112@gmail.com)  
+- 💬 Discord: 2kairuii_1_74073
+- 🆔 Discord User ID: 1210416837272010803
 
 
