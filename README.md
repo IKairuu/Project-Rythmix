@@ -11,7 +11,7 @@ Rythmix is a lightweight, offline desktop app that lets users:
 
 - 👤 Create and manage user accounts
 
-- 🧾 Store music and account data persistently in an SQLite database
+- 🧾 Store music and account data persistently in the  MySQL database
 
 - 🎛️ Use a clean, modern interface built with PyQt6
 
@@ -59,7 +59,7 @@ password = "password"
 
 
 ### 🧠 How the Program Works
-1. Login / Account Creation - Users can sign up or log in with credentials. Data is stored in SQLite.
+1. Login / Account Creation - Users can sign up or log in with credentials. Data is stored in MySQL Database.
 
 2. Main Dashboard - Displays the music library. Users can import new music or select tracks to play.
 
