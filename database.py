@@ -22,7 +22,7 @@ class MusicManagerDatabase():
             host = "localhost",
             user = "root",
             database = "music_manager",
-            password = "guyguy23CV"
+            password = "password"
             )
             return db
         except mysql.connector.Error as error:
