@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>resources/add-to-playlist.png</file>
+    <file>resources/history.png</file>
+    <file>resources/import.png</file>
+    <file>resources/setting.png</file>
+    <file>resources/search.png</file>
+    <file>resources/star.png</file>
+    <file>resources/rewind-button.png</file>
+    <file>resources/fast-forward.png</file>
+    <file>resources/pause.png</file>
+    <file>resources/play-buttton.png</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+</RCC>

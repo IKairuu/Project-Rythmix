@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImportMusic</class>
+ <widget class="QDialog" name="ImportMusic">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IMPORT MUSIC</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(24, 20, 20);</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>301</width>
+     <height>142</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="import_title">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 216, 92);</string>
+      </property>
+      <property name="text">
+       <string>Music Title</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="import_artist_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="import_duration_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="import_duration">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 216, 92);</string>
+      </property>
+      <property name="text">
+       <string>Duration(HH:MM:SS)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="import_back_button">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(20, 216, 92);</string>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="import_confirm_button">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(20, 216, 92);</string>
+        </property>
+        <property name="text">
+         <string>Confirm</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="import_title_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="import_artist">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 216, 92);</string>
+      </property>
+      <property name="text">
+       <string>Artist</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="select_file_button">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 216, 92);</string>
+      </property>
+      <property name="text">
+       <string>Select File</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="select_file_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
